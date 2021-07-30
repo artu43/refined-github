@@ -38,6 +38,7 @@ async function init(): Promise<false | void> {
 			className="btn tooltipped tooltipped-ne rgh-default-branch-button"
 			href={String(url)}
 			aria-label="See this view on the default branch"
+			data-pjax="#repo-content-pjax-container"
 		>
 			<ChevronLeftIcon/>
 		</a>
